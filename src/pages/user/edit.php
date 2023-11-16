@@ -12,8 +12,8 @@ $user = findUserAction($conn, $_GET['id']);
 ?>
 <div class="container">
     <div class="row">
-        <a href="../../../index.php"><h1>Users - Edit</h1></a>
-        <a class="btn btn-success text-white" href="../../../index.php">Prev</a>
+        <a href="../../../index.php"><h1>Usuários - Editar</h1></a>
+        <a class="btn btn-success text-white" href="../../../index.php">Voltar</a>
     </div>
     <div class="row flex-center">
         <div class="form-div">
@@ -26,7 +26,7 @@ $user = findUserAction($conn, $_GET['id']);
                 <label>Phone</label>
                 <input type="text" name="phone" value="<?=htmlspecialchars($user['phone'])?>" required/>
 
-                <button class="btn btn-success text-white" type="submit">Save</button>
+                <button class="btn btn-success text-white" type="submit">Salvar</button>
             </form>
         </div>
     </div>

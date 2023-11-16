@@ -10,7 +10,7 @@ $users = readUserAction($conn);
 ?>
 <div class="container">
     <div class="row">
-        <a href="../../../"><h1>Users - Read</h1></a>
+        <a href="../../../"><h1>Usuários - Read</h1></a>
         <a class="btn btn-success text-white" href="./create.php">Criar</a>
     </div>
     <div class="row flex-center">
